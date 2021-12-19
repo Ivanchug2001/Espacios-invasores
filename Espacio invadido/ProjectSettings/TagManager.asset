@@ -7,6 +7,7 @@ TagManager:
   - bullet
   - espacio
   - enemy
+  - bullet_enemy
   layers:
   - Default
   - TransparentFX
