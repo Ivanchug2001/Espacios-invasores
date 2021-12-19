@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 5721168150049701395}
   - component: {fileID: 2848356924609706877}
   - component: {fileID: 2520157867073947010}
+  - component: {fileID: 7165154873773881816}
+  - component: {fileID: 3712648178019183355}
   m_Layer: 0
   m_Name: player_bullet
   m_TagString: bullet
@@ -277,3 +279,50 @@ MonoBehaviour:
   onTriggerExit:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7165154873773881816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2553984288145933941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b50ad1d43434664b9a6ea3253f4e091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filterByTag: 1
+  collisionTag: bullet
+  sendMessage: 1
+  message: destroy
+  onCollisionEnter:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &3712648178019183355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2553984288145933941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dceca0cd5c238864c8cc2ef68eea12da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: destroy
+  onMessageReceived:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5233457955908780397}
+        m_TargetAssemblyTypeName: UP_SelfDestroyer, Assembly-CSharp
+        m_MethodName: UP_SelfDestroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
