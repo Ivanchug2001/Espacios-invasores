@@ -15,11 +15,19 @@ C:/Users/miria/Desktop/programas/unity/Espacios-invasores/Espacio invadido
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 54324
 Successfully changed project path to: C:/Users/miria/Desktop/programas/unity/Espacios-invasores/Espacio invadido
 C:/Users/miria/Desktop/programas/unity/Espacios-invasores/Espacio invadido
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 32.74 ms, found 3 plugins.
+=======
+51455
+Successfully changed project path to: C:/U-TAD/Proyectos/Espacios invasores/Espacio invadido
+C:/U-TAD/Proyectos/Espacios invasores/Espacio invadido
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.95 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,6 +43,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -48,11 +57,27 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (741ms)
 		BeginReloadAssembly (37ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002191 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Domain Reload Profiling:
+	ReloadAssembly (928ms)
+		BeginReloadAssembly (48ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 		EndReloadAssembly (302ms)
 			LoadAssemblies (35ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -60,19 +85,34 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (21ms)
 			SetupLoadedEditorAssemblies (126ms)
+=======
+		EndReloadAssembly (311ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (109ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (130ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (33ms)
 				BeforeProcessingInitializeOnLoad (6ms)
+<<<<<<< Updated upstream
 				ProcessInitializeOnLoadAttributes (62ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
+=======
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.002712 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -83,10 +123,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (779ms)
 		BeginReloadAssembly (102ms)
+=======
+Registered in 0.003381 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.849 seconds
+Domain Reload Profiling:
+	ReloadAssembly (850ms)
+		BeginReloadAssembly (111ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (14ms)
 		EndReloadAssembly (631ms)
 			LoadAssemblies (68ms)
@@ -103,21 +156,48 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (141ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (5ms)
+=======
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (688ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+>>>>>>> Stashed changes
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< Updated upstream
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2120 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 94.5 MB.
 System memory in use after: 94.6 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+<<<<<<< Updated upstream
 Total: 2.239600 ms (FindLiveObjects: 0.127100 ms CreateObjectMapping: 0.031800 ms MarkObjects: 2.025100 ms  DeleteObjects: 0.054700 ms)
+=======
+Total: 2.595700 ms (FindLiveObjects: 0.198500 ms CreateObjectMapping: 0.052600 ms MarkObjects: 2.284000 ms  DeleteObjects: 0.059700 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,6 +211,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   path: Assets/enemy_bullet.prefab
   artifactKey: Guid(0e40143c4eca2964cb65315a85b36027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/enemy_bullet.prefab using Guid(0e40143c4eca2964cb65315a85b36027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85abcb5471170c734c16ecf608ea388') in 0.076039 seconds 
@@ -143,32 +224,256 @@ Received Import Request.
   artifactKey: Guid(0e40143c4eca2964cb65315a85b36027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/enemy_bullet.prefab using Guid(0e40143c4eca2964cb65315a85b36027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c0fc4f61ff6d055640f2af1c48d40f') in 0.008701 seconds 
   Import took 0.012022 seconds .
+=======
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6831bda29e56d62058c308b6acda31') in 0.015827 seconds 
+  Import took 0.018977 seconds .
 
 ========================================================================
 Received Import Request.
+  Time since last request: 61.678785 seconds.
+  path: Assets/asteroid.prefab
+  artifactKey: Guid(28a7e0cd4c2419343bca4edeb5790bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroid.prefab using Guid(28a7e0cd4c2419343bca4edeb5790bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2eb4432d442b271e8bae6cfc7785da') in 0.075624 seconds 
+  Import took 0.078895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.109322 seconds.
+  path: Assets/asteroid.prefab
+  artifactKey: Guid(28a7e0cd4c2419343bca4edeb5790bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroid.prefab using Guid(28a7e0cd4c2419343bca4edeb5790bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff01ee21f522fe942c95611cf0e76f98') in 0.012701 seconds 
+  Import took 0.015804 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003381 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (774ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (609ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2572.
+Total: 2.512800 ms (FindLiveObjects: 0.172600 ms CreateObjectMapping: 0.051600 ms MarkObjects: 2.274500 ms  DeleteObjects: 0.013400 ms)
+>>>>>>> Stashed changes
+
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 15.546479 seconds.
   path: Assets/enemy_bullet.prefab
   artifactKey: Guid(0e40143c4eca2964cb65315a85b36027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/enemy_bullet.prefab using Guid(0e40143c4eca2964cb65315a85b36027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54d46fcfe9c64ba706c0e095e17627c') in 0.008656 seconds 
   Import took 0.011873 seconds .
+=======
+  Time since last request: 16.381078 seconds.
+  path: Assets/asteroid.prefab
+  artifactKey: Guid(28a7e0cd4c2419343bca4edeb5790bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroid.prefab using Guid(28a7e0cd4c2419343bca4edeb5790bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ece333abb7d4e5306db3f8b36d562d') in 0.051637 seconds 
+  Import took 0.054858 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (763ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2576.
+Total: 2.678300 ms (FindLiveObjects: 0.182900 ms CreateObjectMapping: 0.058000 ms MarkObjects: 2.418600 ms  DeleteObjects: 0.017900 ms)
+>>>>>>> Stashed changes
 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 7.639138 seconds.
   path: Assets/enemy_bullet.prefab
   artifactKey: Guid(0e40143c4eca2964cb65315a85b36027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/enemy_bullet.prefab using Guid(0e40143c4eca2964cb65315a85b36027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba7f98b6a12664eb3888c0c6c286dff') in 0.008544 seconds 
   Import took 0.011750 seconds .
+=======
+  Time since last request: 135.090215 seconds.
+  path: Assets/asteroid.prefab
+  artifactKey: Guid(28a7e0cd4c2419343bca4edeb5790bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asteroid.prefab using Guid(28a7e0cd4c2419343bca4edeb5790bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0ee899f60bbdcf42029ad2967a2606') in 0.053317 seconds 
+  Import took 0.057581 seconds .
 
 ========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (621ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 2.584000 ms (FindLiveObjects: 0.221800 ms CreateObjectMapping: 0.053900 ms MarkObjects: 2.293100 ms  DeleteObjects: 0.014300 ms)
+>>>>>>> Stashed changes
+
+========================================================================
+<<<<<<< Updated upstream
 Received Import Request.
   Time since last request: 7.049692 seconds.
   path: Assets/enemy_bullet.prefab
   artifactKey: Guid(0e40143c4eca2964cb65315a85b36027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/enemy_bullet.prefab using Guid(0e40143c4eca2964cb65315a85b36027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4103c7a7c2cb8b20ec44ceecab8c324') in 0.008776 seconds 
   Import took 0.011875 seconds .
+=======
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003371 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Domain Reload Profiling:
+	ReloadAssembly (789ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (620ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 3.460800 ms (FindLiveObjects: 0.215100 ms CreateObjectMapping: 0.063500 ms MarkObjects: 3.152500 ms  DeleteObjects: 0.028800 ms)
+>>>>>>> Stashed changes
 
 ========================================================================
+<<<<<<< Updated upstream
 Received Import Request.
   Time since last request: 7.055042 seconds.
   path: Assets/enemy_bullet.prefab
@@ -183,8 +488,55 @@ Received Import Request.
   artifactKey: Guid(0e40143c4eca2964cb65315a85b36027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/enemy_bullet.prefab using Guid(0e40143c4eca2964cb65315a85b36027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b67fe6e14457b11b65bd59ce9bff8fc') in 0.008294 seconds 
   Import took 0.011233 seconds .
+=======
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003393 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (771ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2586.
+Total: 6.017700 ms (FindLiveObjects: 0.301400 ms CreateObjectMapping: 0.100400 ms MarkObjects: 5.588300 ms  DeleteObjects: 0.025500 ms)
+>>>>>>> Stashed changes
 
 ========================================================================
+<<<<<<< Updated upstream
 Received Import Request.
   Time since last request: 8.531465 seconds.
   path: Assets/enemy_bullet.prefab
@@ -273,18 +625,61 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (146ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (5ms)
+=======
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Domain Reload Profiling:
+	ReloadAssembly (778ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+>>>>>>> Stashed changes
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+=======
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2110 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 97.0 MB.
 System memory in use after: 97.1 MB.
 
+<<<<<<< Updated upstream
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2572.
 Total: 2.177600 ms (FindLiveObjects: 0.157100 ms CreateObjectMapping: 0.059600 ms MarkObjects: 1.946200 ms  DeleteObjects: 0.013700 ms)
+=======
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2589.
+Total: 4.586500 ms (FindLiveObjects: 0.411300 ms CreateObjectMapping: 0.103300 ms MarkObjects: 4.055400 ms  DeleteObjects: 0.015600 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
