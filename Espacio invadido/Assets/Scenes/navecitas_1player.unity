@@ -836,7 +836,7 @@ MonoBehaviour:
   prefab: {fileID: 1237931804677172305, guid: 28a7e0cd4c2419343bca4edeb5790bc3, type: 3}
   prefabs: []
   areaType: 0
-  rectangleSize: {x: -13.5, y: 1}
+  rectangleSize: {x: -13.5, y: 0}
   circleRadius: 1
   useCircunferenceOnly: 1
   pointsTag: 

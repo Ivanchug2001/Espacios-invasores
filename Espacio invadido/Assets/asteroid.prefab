@@ -1,76 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &322041216328906199
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9174183424556853009}
-  - component: {fileID: 2157179554307242463}
-  m_Layer: 0
-  m_Name: Life
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9174183424556853009
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322041216328906199}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1471518811702680381}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2157179554307242463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322041216328906199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2102c0a2b2dd2c449a04fa63c24c7986, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  counter: 3
-  multiplier: 1
-  useMaximum: 0
-  maximum: 10
-  useMinimum: 0
-  minimum: 0
-  alertIfReachesValue: 1
-  randomizeTargetValue: 0
-  targetValue: 0
-  randomTargetValue:
-    min: 0
-    max: 10
-  comparison: 1
-  onValueReached:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3369531709003239285}
-        m_TargetAssemblyTypeName: UP_SelfDestroyer, Assembly-CSharp
-        m_MethodName: UP_SelfDestroy
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1237931804677172305
 GameObject:
   m_ObjectHideFlags: 0
@@ -85,12 +14,11 @@ GameObject:
   - component: {fileID: 6651464718725581785}
   - component: {fileID: 3369531709003239285}
   - component: {fileID: 7262114963667195141}
-  - component: {fileID: 8239920994972051734}
-  - component: {fileID: 384979504806543957}
   - component: {fileID: 3965181761030441644}
+  - component: {fileID: 4625145944656589687}
   m_Layer: 0
   m_Name: asteroid
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,10 +31,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1237931804677172305}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: 2.8883526, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 9174183424556853009}
+  m_LocalPosition: {x: 2.0383, y: 3.0017, z: 0}
+  m_LocalScale: {x: 0.7878167, y: 0.7878167, z: 0.7878167}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -220,67 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dceca0cd5c238864c8cc2ef68eea12da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: die
+  message: +1Damage
   onMessageReceived:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3369531709003239285}
-        m_TargetAssemblyTypeName: UP_SelfDestroyer, Assembly-CSharp
-        m_MethodName: UP_SelfDestroy
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &8239920994972051734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237931804677172305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dceca0cd5c238864c8cc2ef68eea12da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: 
-  onMessageReceived:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2157179554307242463}
-        m_TargetAssemblyTypeName: UP_Counter, Assembly-CSharp
-        m_MethodName: UP_IncreaseCounter
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: -1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &384979504806543957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237931804677172305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b50ad1d43434664b9a6ea3253f4e091, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  filterByTag: 1
-  collisionTag: bullet
-  sendMessage: 1
-  message: die
-  onCollisionEnter:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3369531709003239285}
@@ -333,3 +201,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!58 &4625145944656589687
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237931804677172305}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.2799999
