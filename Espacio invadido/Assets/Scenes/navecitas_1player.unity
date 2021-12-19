@@ -579,6 +579,103 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!1 &1253278826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1253278829}
+  - component: {fileID: 1253278828}
+  - component: {fileID: 1253278827}
+  m_Layer: 0
+  m_Name: generator_enemyship_shooter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1253278827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253278826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6511b1edb271004fb76915ae76477db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialTime: 3
+  randomInitialTime:
+    min: 0
+    max: 1
+  repeat: 1
+  repeatTime: 10
+  randomRepeatTime:
+    min: 0
+    max: 1
+  randomizeTimes: 0
+  autoStart: 1
+  onTimeUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1253278828}
+        m_TargetAssemblyTypeName: UP_Spawner, Assembly-CSharp
+        m_MethodName: UP_Instantiate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1253278828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253278826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d6deac811a12f540bd2b1ab7c6b0a46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomize: 0
+  prefab: {fileID: 3020665477288502251, guid: 2ed5da7ee73d3274b869089b2ad12a67, type: 3}
+  prefabs: []
+  areaType: 0
+  rectangleSize: {x: 10, y: 0}
+  circleRadius: 1
+  useCircunferenceOnly: 1
+  pointsTag: 
+  visitAllPoints: 0
+  reparentToSpawner: 0
+  avoidOverlap: 0
+  overlapRadius: 1
+  overlapLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!4 &1253278829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253278826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1666561274
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,6 +902,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: powerup
       objectReference: {fileID: 0}
+    - target: {fileID: 2537070224962854844, guid: 8fc34a6d926b1df47bfa5eea2781cc1e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2537070224962854847, guid: 8fc34a6d926b1df47bfa5eea2781cc1e, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -858,10 +959,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 64852226085571290, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
-      propertyPath: onValueReached.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+    - target: {fileID: 1457849610, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959244421, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
+      propertyPath: onTimeUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 622167882}
+    - target: {fileID: 897807253266358926, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
+      propertyPath: filterByTag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 897807253266358926, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
+      propertyPath: sendMessage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 897807253266358926, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
+      propertyPath: onTriggerStay.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 897807253266358926, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
+      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 897807253266358926, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
+      propertyPath: onTriggerStay.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 897807253266358926, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
+      propertyPath: onTriggerStay.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 897807253266358926, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
+      propertyPath: onTriggerStay.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 897807253266358926, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
+      propertyPath: onTriggerStay.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UP_SendMessage
+      objectReference: {fileID: 0}
+    - target: {fileID: 897807253266358926, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
+      propertyPath: onTriggerStay.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UP_Messenger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 897807253266358926, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
+      propertyPath: onTriggerStay.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: +2Damage
+      objectReference: {fileID: 0}
+    - target: {fileID: 897807253266358926, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
+      propertyPath: onTriggerStay.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5822123528069266647, guid: 486fc5d9a09207141ba2a3297f064c06, type: 3}
       propertyPath: m_Name
       value: Player1
