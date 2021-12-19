@@ -8,6 +8,9 @@ TagManager:
   - espacio
   - enemy
   - bullet_enemy
+  - powergen
+  - powergen2
+  - powergen3
   layers:
   - Default
   - TransparentFX
