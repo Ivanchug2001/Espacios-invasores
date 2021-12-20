@@ -695,7 +695,7 @@ MonoBehaviour:
   randomTargetValue:
     min: 0
     max: 10
-  comparison: 0
+  comparison: 1
   onValueReached:
     m_PersistentCalls:
       m_Calls:
