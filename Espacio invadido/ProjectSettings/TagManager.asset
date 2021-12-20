@@ -11,6 +11,7 @@ TagManager:
   - powergen
   - powergen2
   - powergen3
+  - score
   layers:
   - Default
   - TransparentFX
